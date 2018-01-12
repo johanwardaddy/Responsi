@@ -1,5 +1,5 @@
 <?php
-  $koneksi = mysqli_connect("172.22.0.3","root","root","HMJ_TI_Bebdahara");
+  $koneksi = mysqli_connect("172.22.0.2","root","test","HMJ_TI_Bebdahara");
   if (!$koneksi) {
     echo "string";
   }
